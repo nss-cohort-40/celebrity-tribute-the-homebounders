@@ -62,3 +62,43 @@ footer {
 .snicons a {
   object-fit: contain;
 }
+
+/* NEWS FEED CSS */
+
+.news-container {
+  font-family: "Monserrat", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  
+}
+
+
+.news-container__news {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 90%;
+}
+
+.news-container__title {
+  color: black;
+  font-size: 70px;
+  justify-items: center;
+}
+
+
+.news-container__newsbox {
+  height: 100px;
+  border: black 1px solid;
+  flex-grow: 1;
+  flex-basis: 40%;
+  min-height: 100px;
+  display: flex;
+}
+
+.news-news__image {
+  max-height: 100%;
+}
+
+/* END OF NEWS FEED CSS */
