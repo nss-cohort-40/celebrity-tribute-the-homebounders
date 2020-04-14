@@ -51,7 +51,11 @@ footer {
   background: white;
   height: 64px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
 }
 
 .snicons a {
