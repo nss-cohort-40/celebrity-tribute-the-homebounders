@@ -61,6 +61,7 @@ footer {
   object-fit: contain;
 }
 
+/* Career page styling */
 .career {
   display: flex;
   flex-flow: row wrap;
@@ -68,25 +69,42 @@ footer {
 }
 
 .career__intro {
+  flex-flow: column wrap;
+  display: flex;
+  justify-content: center;
   border: solid white 1px;
 }
 
 .career__talents {
+  flex-flow: column wrap;
+  display: flex;
+  justify-content: center;
   border: solid white 1px;
 }
 
 .career__films {
+  flex-flow: column wrap;
+  display: flex;
+  justify-content: center;
   border: solid white 1px;
 }
 
 .career__lived {
+  flex-flow: column wrap;
+  display: flex;
+  justify-content: center;
   border: solid white 1px;
 }
 
 .career__collabs {
+  flex-flow: column wrap;
+  display: flex;
+  justify-content: center;
   border: solid white 1px;
 }
 
 .career__awards {
+  display: flex;
+  justify-content: center;
   border: solid white 1px;
 }
