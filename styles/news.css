@@ -10,7 +10,7 @@
 .container__news {
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     flex-basis: 90%;
 }
 
@@ -27,16 +27,4 @@
     flex-grow: 1;
     width: 100px;
     flex-basis: 40%;
-
-    display: flex;
-    flex-flow: row wrap;
-
-}
-
-.news__title {
-
-}
-
-.news__image {
-    object-fit: contain;
 }
