@@ -52,8 +52,21 @@ footer {
   height: 64px;
   display: flex;
   flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 64px;
 }
 
-.snicons a {
-  object-fit: contain;
+article {
+  text-align: center;
+  font-family: "Monserrat", sans-serif;
+  font-size: 25px;
+}
+
+article section ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
