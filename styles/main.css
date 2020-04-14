@@ -79,7 +79,7 @@ article section ul {
 }
 
 .thomas img {
-  width: 300px;
+  max-width: 300px;
 }
 
 .samuel {
@@ -87,7 +87,7 @@ article section ul {
 }
 
 .samuel img {
-  width: 300px;
+  max-width: 300px;
 }
 
 .jack {
@@ -95,9 +95,9 @@ article section ul {
 }
 
 .jack img {
-  width: 300px;
+  max-width: 300px;
 }
 
 .spouse img {
-  width: 300px;
+  max-width: 500px;
 }
