@@ -4,6 +4,7 @@ body {
   padding: 0;
   background: darkgray;
   position: relative;
+  background-attachment: fixed;
 }
 
 .nav__links {
@@ -59,13 +60,15 @@ footer {
   height: 64px;
 }
 
-article {
+/* Personal info styles */
+
+.personalInfo {
   text-align: center;
   font-family: "Monserrat", sans-serif;
   font-size: 25px;
 }
 
-article section ul {
+.personal__images {
   list-style-type: none;
   padding-inline-start: 0;
   margin-block-start: 0;
