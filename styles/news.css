@@ -1,0 +1,29 @@
+.container {
+    font-family: "Monserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+}
+
+
+.container__news {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 90%;
+}
+
+.container__title {
+    color: black;
+    font-size: 70px;
+    flex-basis: 90%;
+    align-self: center;
+}
+
+
+.container__newsbox {
+    border: black 1px solid;
+    flex-grow: 1;
+    flex-basis: 40%;
+}
