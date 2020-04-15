@@ -3,6 +3,8 @@ body {
   padding: 0;
   background: darkgray;
   position: relative;
+  background-image: url(https://images8.alphacoders.com/781/thumb-1920-781013.jpg);
+  color: white;
 }
 
 .nav__links {
@@ -48,7 +50,6 @@ a {
 }
 
 footer {
-  background: darkgray;
   height: 64px;
   display: flex;
   position: 0;
@@ -146,5 +147,11 @@ td.film-poster {
 }
 
 .career__ul {
+  padding: 10px;
+  list-style-type: square;
+}
+
+.career__ul--nobullet {
   padding: 0;
+  list-style-type: none;
 }
