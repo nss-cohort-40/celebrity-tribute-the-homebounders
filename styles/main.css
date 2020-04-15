@@ -72,9 +72,12 @@ footer {
   align-items: stretch;
 }
 
+.career-main {
+  padding-left: 10px;
+}
+
 .career__intro {
   font-family: 'Montserrat', sans-serif;
-  font-size: large;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -138,4 +141,12 @@ th {
 td.film-poster {
   padding-left: 60px;
   padding-top: 8px;
+}
+
+ul {
+  padding: 0;
+}
+
+h1 {
+  font-size: 150%;
 }
