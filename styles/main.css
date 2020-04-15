@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: darkgray;
+  background-image: url(https://images8.alphacoders.com/781/781013.jpg);
+  color: white;
   position: relative;
   background-attachment: relative;
 }
@@ -49,7 +50,6 @@ a {
 }
 
 footer {
-  background: darkgray;
   height: 64px;
   display: flex;
   flex-direction: row-reverse;
