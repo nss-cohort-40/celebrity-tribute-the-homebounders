@@ -78,8 +78,9 @@ footer {
 .news-container__news {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-flow: row nowrap;
   flex-basis: 90%;
+  max-block-size: fit-content;
 }
 
 .news-container__title {
@@ -92,18 +93,33 @@ footer {
   height: 100px;
   border: black 1px solid;
   flex-grow: 1;
-  flex-basis: 40%;
-  min-height: 100px;
+  max-width: 400px;
   display: flex;
+  margin: 1%;
+  /* max-block-size: fit-content; */
 }
 
 .news-news__image {
-  max-height: 100%;
-  padding: 3px;
+  object-fit: contain;
+  max-height: 100px;
 }
 
 .news-news__title {
-  padding: 3px;
+  padding-left: 5px;
 }
 
+.news-container__newsbox a {
+  object-fit: contain;
+  display: flex;
+  max-width: 400px;
+  max-height: 100px;
+}
+
+.news-news__date {
+  font-size: 10px;
+}
+
+.legal {
+  font-size: 10px;
+}
 /* END OF NEWS FEED CSS */
