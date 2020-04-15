@@ -70,7 +70,8 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  
+  position: relative;
+  min-height: 100vh;
 }
 
 
@@ -83,14 +84,15 @@ footer {
 }
 
 .news-container__title {
-  color: black;
+  color: white;
   font-size: 70px;
   justify-items: center;
+  text-shadow: #FC0 1px 0 10px;
 }
 
 .news-container__newsbox {
   height: 100px;
-  border: black 1px solid;
+  border: white 1px solid;
   flex-grow: 1;
   max-width: 400px;
   display: flex;
@@ -116,14 +118,16 @@ footer {
 
 .news-news__date {
   font-size: 10px;
+  color: antiquewhite;
+  text-shadow: black 0 0 1px;
 }
 
 .legal {
+  color: antiquewhite;
   font-size: 10px;
 }
 /* END OF NEWS FEED CSS */
 
-=======
 /* CAREER STYLING STARTS */
 
 .careerpage {
