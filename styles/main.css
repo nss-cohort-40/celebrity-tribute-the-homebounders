@@ -51,6 +51,60 @@ a {
 footer {
   height: 64px;
   display: flex;
+  flex-direction: row-reverse;
+  position: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Personal info styles */
+
+.personalInfo {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.personalTitle {
+  font-size: 70px;
+  font-style: bold;
+}
+
+.personal__images {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.thomas img {
+  max-width: 300px;
+}
+
+.samuel {
+  margin: 1em 0;
+}
+
+.samuel img {
+  max-width: 300px;
+}
+
+.jack {
+  margin: 1em 0;
+}
+
+.jack img {
+  max-width: 300px;
+}
+
+.spouse img {
+  max-width: 500px;
+}
+=======
   position: 0;
   bottom: 0;
   width: 100%;
@@ -291,3 +345,4 @@ h4.alias {
   display: inline;
   padding: 10px;
 }
+
