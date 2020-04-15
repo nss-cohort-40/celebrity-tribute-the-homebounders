@@ -4,7 +4,6 @@ body {
   background: darkgray;
   position: relative;
   background-image: url(https://images8.alphacoders.com/781/thumb-1920-781013.jpg);
-  color: white;
 }
 
 .nav__links {
@@ -70,6 +69,7 @@ footer {
   flex-flow: row;
   justify-content: stretch;
   align-items: stretch;
+  color: white;
 }
 
 .career-main {
