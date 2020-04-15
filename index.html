@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,43 +16,56 @@
         <li><img class="logo"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdFpmd4nvwRSo1UMBYXhBGMMVskp0-UUlYEdwaGGCuzSTliceo&usqp=CAU"
             alt="JB logo"></li>
-        <li><a id="selected" href="#">Executive Summary</a></li>
+        <li><a id="selected" href="index.html">Executive Summary</a></li>
         <li><a href="#">Career</a></li>
-        <li><a href="#">Personal</a></li>
+        <li><a href="personal.html">Personal</a></li>
         <li><a href="#">News Feed</a></li>
       </ul>
     </nav>
   </header>
   <article class="executive-summary">
-      <section class="exc-art-img">
-          <div>
-              <a href="#">
-                <img class="jack-black-portrait" src="https://i.pinimg.com/originals/a0/e6/c6/a0e6c65737a2e4c5b8e2aa15fda49949.jpg" alt="jack-black">
-              </a>
-          </div>
-      </section>
-      <section>
-          <h1 class="exc-name">Thomas Jacob Black(Jack Black)</h1>
-      </section>
-      <h3 class="exc-alias-header">Also known As:</h3>
-      <section class="aliases">
+    <!-- <h1 class="exc-summary">Summary</h1> -->
+    <section class="exc-art-img">
+        <div>
+            <a href="#">
+              <img class="jack-black-portrait" src="https://i.pinimg.com/originals/a0/e6/c6/a0e6c65737a2e4c5b8e2aa15fda49949.jpg" alt="jack-black">
+            </a>
+        </div>
+    </section>
+    <hr class="exc-hr">
+    <section>
+        <h1 class="exc-name">Thomas Jacob Black(Jack Black)</h1>
+    </section>
+    <!-- <h3 class="exc-alias-header">Also known As:</h3> -->
+    <section class="exc-container">
+      <!-- <h3 class="exc-collab-header">Collaborated With:</h3> -->
+      <div class="exc-box">
+        <div class="exc-content-box">
+          <p>"I think of myself as an entertainment arsenal. Like I have my acting bazooka and my music machete. And you dont know what I'm going to come at you with." - J.B.</p>
+        </div>
+      </div>
+      <div class="exc-box">
+        <div class="exc-content-box">
           <h4 class="alias">Jablinski</h4>
           <h4 class="alias">J.B.</h4>
           <h4 class="alias">Jables</h4>
-      </section>
-      <h3 class="exc-collab-header">Collaborated With:</h3>
-      <section class="collabs">
-          <h4 class="collab">Dwayne Johnson</h4>
-          <h4 class="collab">Kevin Hart</h4>
-          <h4 class="collab">Sarah Silverman</h4>
-          <h4 class="collab">Naomi Watts</h4>
-      </section>
-      <section class="country">
-          <h3>Currently living in the United States</h3>
-      </section>
+          <p>Currently living in the United States</p>
+          <p>"You must never underestimate the power of the eyebrow." - J.B.</p>
+          <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdFpmd4nvwRSo1UMBYXhBGMMVskp0-UUlYEdwaGGCuzSTliceo&usqp=CAU" alt="JB logo">
+        </div>
+      </div>
+      <div class="exc-box">
+        <div class="exc-content-box">
+          <p>Jack Black has worked with many actors and actresses. Recently he has worked
+            with Dwayne Johnson and Kevin Hart in the movie Jumanji: The Next Level. He has 
+            also acted alongside people such as Sarah Silverman, Naomi Watts, Ben Stiller, Robert Downey Jr, and many others!
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="exc-hr">
   </article>
   <footer>
-
     <div class="snicons">
       <a class="snicons__link" href="facebook" alt="Facebook Icon"><img
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADsElEQVR4Xu2bTUhUURTH/+fNoGW+0UR9gxapy2gR9EGEUTtbtOnbRQQFQZuISOaZixqMcEYI2gVKQosoKcJNFIIQhUSgtBCCNkaLxDcazQeVn3PiDTMlZs4dR71evW/3eP97Oed37zvvvnv5E+ZdFXa83gAuAjgCoApA4XyNYveTAEYAvGYDDyJtvv658VPmpjwwZnpQ0Amis4olmFu4zN2zmLo03l6RcBumAKSSp4I3AO3OrTc11QT+MMNTh10IKQBWIPZk3Y/8/LFi7nbaSxop/c6/VXMs84s6CRwiy453AbiQX1fKtu5yAQwDqFU2hfwCH3YBTCjyqWMA3wCMEXiCQaUAtgIoyRTzJbCYdAG4Ha/VawBMPUCyz4n6BtFB0/8EGmSjNBr1FW6iMkp6djC4DoTW9Boma15rEwCjH4YRdEJb+gDKeYAq7cQAgfdkzd6dOmttBjBTMFJUfBtBSooksJBGWQBEdGY0ZD5dauKZdkoCIHDraLjkVr7Ju+3VA8B45xSZ9flM+7nglAPAlGyIhEp7l2P0VZwBA07Y3L+Uav8/YGrNAEaL0+5rW67RV28GGHzAaSt5nwsAqylRSQZOJYn3EVBBIO/c9gw+CMAU6VP2OmDC2WyaCNKMSLCpX3c70QhwJ4Bi0TaL6eQCIHxxQr4a0UT8NxI7OclDAAzRNtl0UgEwaDASNvdmCzLz3LLjzwEcF9WL6KQCAKjXCZsNIoECTJadiALwienFVJIB4IUT9h0TCbXqerx81osxEW0uGmUA+Ju/1zB7PueSnIhWA5D8Oyz8CugZoF8BXQPUKoIMfCLQq8UqMRM+RkJmh0i13nYtVjZdYNzMpiXwdgZOZNNlnq/cV4DokRMyz4kGsly6Sjt2nkAPRftbdwAsO34HQMuGBeC3488YOLlhAViB+BAIuzYmgNPsseoSP3I56ltXNcBqitbCY7iHvcLXugJQ0Rw7ajC9FM5+RY/GJHwGLTt2FaB7GxaAPxC7z0SX1wYAoMfL3iuLrgRnZyZG7vrGhQIOsrf65y//YtpZmnnMQL1Qf2nRytUAsSj077DolpjeD9D7AXo/QK39ALEaKL4trmuArgG6BugaoE+G9NGYPhvUh6OC6wthmf4b1KfDcg0TsvcDUoYJmZYZ2QBSlhmZpinZALpk2+akAmAD9bKNk/IAZIyT7gdTonVWCoB/rLN/IKy+eXr1ASxknp67bEpbaV0nqWufr87loFF4+fVXuBoAXPv817R9vmu+ff433iJ4iQCj83MAAAAASUVORK5CYII="></a>
