@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(https://images8.alphacoders.com/781/781013.jpg);
+  background: darkgray;
   position: relative;
-  background-attachment: relative;
+  background-image: url(https://images8.alphacoders.com/781/thumb-1920-781013.jpg);
 }
 
 .nav__links {
@@ -55,7 +55,6 @@ footer {
   position: 0;
   bottom: 0;
   width: 100%;
-  height: 64px;
 }
 
 /* Personal info styles */
@@ -105,3 +104,217 @@ footer {
 .spouse img {
   max-width: 500px;
 }
+=======
+  position: 0;
+  bottom: 0;
+  width: 100%;
+  flex-direction: row-reverse;
+
+}
+
+.snicons a {
+  object-fit: contain;
+}
+
+
+/* NEWS FEED CSS */
+
+.news-container {
+  font-family: "Monserrat", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+
+.news-container__news {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  flex-basis: 90%;
+  max-block-size: fit-content;
+}
+
+.news-container__title {
+  color: white;
+  font-size: 70px;
+  justify-items: center;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+.news-container__newsbox {
+  height: 100px;
+  border: white 1px solid;
+  flex-grow: 1;
+  max-width: 400px;
+  display: flex;
+  margin: 1%;
+  /* max-block-size: fit-content; */
+}
+
+.news-news__image {
+  object-fit: contain;
+  max-height: 100px;
+}
+
+.news-news__title {
+  padding-left: 5px;
+}
+
+.news-container__newsbox a {
+  object-fit: contain;
+  display: flex;
+  max-width: 400px;
+  max-height: 100px;
+}
+
+.news-news__date {
+  font-size: 10px;
+  color: antiquewhite;
+  text-shadow: black 0 0 1px;
+}
+
+.legal {
+  color: antiquewhite;
+  font-size: 10px;
+}
+/* END OF NEWS FEED CSS */
+
+/* CAREER STYLING STARTS */
+
+.careerpage {
+  font-size: large;
+  display: flex;
+  flex-flow: row;
+  justify-content: stretch;
+  align-items: stretch;
+  color: white;
+}
+
+.career-main {
+  padding-left: 10px;
+}
+
+.career__intro {
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 10px;
+}
+
+.career__intro h1 {
+    font-size: 150%;
+}
+
+.career__talents {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career__films {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+}
+
+section.career_films {
+  align-self: center;
+  display: flex;
+}
+
+.career__lived {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career__collabs {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career__awards {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career__films table {  
+  font-size: large;
+  flex-grow: 1;
+}
+
+tr {
+  display: flex;
+}
+
+td {
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  flex-grow: 1;
+  font-size: x-large;
+  padding-top: 15px;
+  padding-bottom: 10px;;
+}
+
+.sidebar__pic {
+  max-height: 275px;
+}
+
+td.film-poster {
+  padding-left: 60px;
+  padding-top: 3px;
+}
+
+.film-title {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.career__ul {
+  padding: 10px;
+  list-style-type: square;
+}
+
+.career__ul--nobullet {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Executive Summary Styling */
+.executive-summary {
+  text-align: center;
+  font-family: "Monserrat", sans-serif;
+}
+
+.exc-art-img {
+  display: flex;
+  justify-content: center;
+}
+
+.jack-black-portrait {
+  border: 1px solid white;
+  height: 300px;
+}
+
+.exc-alias-header, .exc-collab-header {
+  text-decoration: underline;
+  color: white;
+}
+
+.aliases {
+  display: flex;
+  justify-content: center;
+}
+
+.alias {
+  margin: -10px;
+  flex-basis: 13%;
+}
+
+.collabs {
+  display: flex;
+  justify-content: center;
+}
+
+.collab {
+  margin: -10px 10px 0 0;
+  flex-basis: 12%;
+}
+
