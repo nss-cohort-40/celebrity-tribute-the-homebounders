@@ -49,21 +49,115 @@ a {
 }
 
 footer {
-  /* background: darkgray; */
   height: 64px;
   display: flex;
   position: 0;
   bottom: 0;
   width: 100%;
   flex-direction: row-reverse;
-  justify-content: center;
 }
 
 .snicons a {
   object-fit: contain;
 }
 
+/* CAREER STYLING STARTS */
+
+.careerpage {
+  font-size: large;
+  display: flex;
+  flex-flow: row;
+  justify-content: stretch;
+  align-items: stretch;
+  color: white;
+}
+
+.career-main {
+  padding-left: 10px;
+}
+
+.career__intro {
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 10px;
+}
+
+.career__intro h1 {
+    font-size: 150%;
+}
+
+.career__talents {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career__films {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+}
+
+section.career_films {
+  align-self: center;
+  display: flex;
+}
+
+.career__lived {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career__collabs {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career__awards {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career__films table {  
+  font-size: large;
+  flex-grow: 1;
+}
+
+tr {
+  display: flex;
+}
+
+td {
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  flex-grow: 1;
+  font-size: x-large;
+  padding-top: 15px;
+  padding-bottom: 10px;;
+}
+
+.sidebar__pic {
+  max-height: 275px;
+}
+
+td.film-poster {
+  padding-left: 60px;
+  padding-top: 3px;
+}
+
+.film-title {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.career__ul {
+  padding: 10px;
+  list-style-type: square;
+}
+
+.career__ul--nobullet {
+  padding: 0;
+  list-style-type: none;
+}
+
 /* Executive Summary Styling */
+
 h1.exc-name {
   font-size: 40px;
   font-weight: 600;
