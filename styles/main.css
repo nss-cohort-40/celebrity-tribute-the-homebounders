@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(https://images8.alphacoders.com/781/781013.jpg);
-  color: white;
   position: relative;
   background-attachment: relative;
 }
@@ -68,6 +67,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: white;
 }
 
 .personalTitle {
