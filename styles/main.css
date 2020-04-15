@@ -155,3 +155,44 @@ td.film-poster {
   padding: 0;
   list-style-type: none;
 }
+
+/* Executive Summary Styling */
+.executive-summary {
+  text-align: center;
+  font-family: "Monserrat", sans-serif;
+}
+
+.exc-art-img {
+  display: flex;
+  justify-content: center;
+}
+
+.jack-black-portrait {
+  border: 1px solid white;
+  height: 300px;
+}
+
+.exc-alias-header, .exc-collab-header {
+  text-decoration: underline;
+  color: white;
+}
+
+.aliases {
+  display: flex;
+  justify-content: center;
+}
+
+.alias {
+  margin: -10px;
+  flex-basis: 13%;
+}
+
+.collabs {
+  display: flex;
+  justify-content: center;
+}
+
+.collab {
+  margin: -10px 10px 0 0;
+  flex-basis: 12%;
+}
